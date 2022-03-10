@@ -1,0 +1,17 @@
+Steps for Backend Setup:
+
+STEP1: npm i apollo-server graphql mongoose
+STEP2: Extension required-  GraphQl for VSCode   (For syntax highlighting inside graph query)
+STEP3: Creating Query & Resolvers in different Files & importing them in index.js
+STEP4: mongoose Connection with our database, Post connection listen to server// keeping uri in configjs file
+STEP5: Adding Authentication  -  npm in bcryptjs jsonwebtoken
+
+
+Steps for Frontend Setup
+
+STEP1: npx create-react-app <app-name>
+STEP2: npm i @apollo/client graphql
+STEP3: setup the ApolloProvider file
+STEP4: install apollo devtools chrome
+STEP5: npm i react-router-dom  //for routing &  npm i semantic-ui-css semantic-ui-react
+STEP6: Add 
